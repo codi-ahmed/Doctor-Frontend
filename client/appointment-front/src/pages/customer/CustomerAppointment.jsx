@@ -62,7 +62,7 @@ const CustomerAppointment = () => {
 
     try {
       const response = await axios.post(
-        `${import.meta.env.REACT_APP_BACKEND_URL}/api/customer/create`,
+        `${import.meta.env.VITE_BACKEND_URLL}/api/customer/create`,
         appointment
       );
       if (response.status === 201) {

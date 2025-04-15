@@ -11,7 +11,7 @@ const CustomerSignup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`${import.meta.env.REACT_APP_BACKEND_URL}/api/customer/register`, form);
+      const res = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/customer/register`, form);
       
       // Check if customer data exists in response
       if (res.data && res.data.customer) {

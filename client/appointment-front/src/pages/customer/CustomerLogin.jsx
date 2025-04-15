@@ -12,7 +12,7 @@ const CustomerLogin = () => {
     e.preventDefault();
     try {  
       // Send POST request to backend
-      const res = await axios.post(`${import.meta.env.REACT_APP_BACKEND_URL}/api/customer/login`, form);
+      const res = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/customer/login`, form);
 
       // Check if response is successful
       if (res.status === 200) {
