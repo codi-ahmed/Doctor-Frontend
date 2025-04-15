@@ -1,0 +1,49 @@
+.customer-login-body {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_form {
+  width: 400px;
+  height: 500px;
+  border: 2px black solid;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  width: 99%;
+  height: 3rem;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    overflow: hidden;
+}
+.input-parent{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.input-login{
+width: 25em;
+height: 30px;
+}
+.loginbtn-cus{
+    width: 80%;
+    height: 30px;
+    background-color: aliceblue;
+    border: 1px solid gainsboro;
+    margin-bottom: .5rem;
+}
+

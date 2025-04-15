@@ -1,0 +1,50 @@
+.doctor-panel {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  .section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .section h2 {
+    margin-bottom: 0.5rem;
+    color: #34495e;
+  }
+  
+  .section ul {
+    padding-left: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .section p {
+    line-height: 1.6;
+  }
+  
+  .doc-home-btn {
+    display: block;
+    margin: 2rem auto 0;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
