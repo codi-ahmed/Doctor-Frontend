@@ -62,7 +62,7 @@ const CustomerAppointment = () => {
 
     try {
       const response = await axios.post(
-        "http://doctor-backend-production.up.railway.app/api/customer/create",
+        "http://doctor-backend.railway.internal/api/customer/create",
         appointment
       );
       if (response.status === 201) {
