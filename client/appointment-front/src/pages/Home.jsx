@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     const fetchDoctors = async () => {
       try {
-        const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/doctors/`);
+        const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/doctors`);
         setDoctors(response.data);
         setLoading(false);
       } catch (error) {
