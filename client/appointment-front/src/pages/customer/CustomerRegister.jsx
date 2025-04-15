@@ -11,7 +11,7 @@ const CustomerSignup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:3000/api/customer/register', form);
+      const res = await axios.post('http://doctor-backend-production.up.railway.app/api/customer/register', form);
       
       // Check if customer data exists in response
       if (res.data && res.data.customer) {

@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     const fetchDoctors = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/doctors");
+        const response = await axios.get("http://doctor-backend-production.up.railway.app/api/doctors");
         setDoctors(response.data);
         setLoading(false);
       } catch (error) {

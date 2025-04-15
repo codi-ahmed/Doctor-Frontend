@@ -15,7 +15,7 @@ const CustomerAppointmentHistory = () => {
         const customerEmail = JSON.parse(localStorage.getItem("customer")).email;
         
        
-        const response = await axios.get("http://localhost:3000/api/customer/history", {
+        const response = await axios.get("http://doctor-backend-production.up.railway.app/api/customer/history", {
           params: { email: customerEmail }, 
         });
         setAppointments(response.data);

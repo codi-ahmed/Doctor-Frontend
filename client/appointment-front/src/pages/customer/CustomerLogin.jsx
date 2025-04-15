@@ -12,7 +12,7 @@ const CustomerLogin = () => {
     e.preventDefault();
     try {  
       // Send POST request to backend
-      const res = await axios.post('http://localhost:3000/api/customer/login', form);
+      const res = await axios.post('http://doctor-backend-production.up.railway.app/api/customer/login', form);
 
       // Check if response is successful
       if (res.status === 200) {
